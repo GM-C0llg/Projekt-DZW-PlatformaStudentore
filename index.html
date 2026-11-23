@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusLoop - Study wherever you go</title>
+</head>
+<body>
+  <header  class="header" id="header">
+    <div id="logo">CampusLoop</div>
+
+    <nav id="navigate">
+      <a href="#home">Home</a>
+      <a href="#sherbimet">Shërbimet</a>
+      <a href="#kontakti">Na kontakto</a>
+      <a href="login.html">Log In</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div id="left">
+        <h1>Mire se vini ne <strong id="home"> CampusLoop! </strong></h1>
+        <p>Komunitet akademik për studentët, profesorët dhe universitetet. Të gjitha në një vend të përshtatshëm.</p>
+      </div>
+      <div id="right">
+        <img src="#" alt="Foto_Universitete">
+      </div>
+      <a href="registry.html" class="button">Regjistrohuni tani!</a>
+      <a href="login.html" class="button">Log In</a>
+    </section>
+
+    <section class="sherbimet" id="sherbimet">
+      <div id="sherbimetHeader">
+      <h2 id="sherbimeTitle"> Çfarë ofrojmë ne? </h2>
+      <p> Gjatë shfletimit të faqes sonë, hedhni një sy se si mund të ju ndihmojmë në udhëtimin tuaj akademik.</p>
+      </div>
+
+      <div class="kartelat">
+        <div>
+          <h3>Mjet Ushtrues</h3>
+          <p>Campus Loop ofron një mjet të fuqishëm të mësimit. Studentët mund t'i ngarkojnë shënimet e tyre dhe të krijojnë ushtrime kontrolluese, teste, kuize etj.</p>
+        </div>
+
+        <div>
+          <h3>Platform Vlerësimi</h3>
+          <p>Profesorët mund të publikojnë ushtrime kontrolluese, kuize apo teste të akredituar në të cilët studentët marrin pjesë dhe vlerësohen.</p>
+
+          <p id="notice">Këto vlerësime nuk kanë ndikim të drejtpërdrejtë në notën përfundimate të studentëve!</p>
+        </div>
+
+        <div>
+          <h3>Komunitet të përbashkët</h3>
+          <p>Studentët mund të bisedojnë me njërin-tjetrin përmes platformës sonë. Ata, së bashku me profesorët, mund të diskutojnë dhe bashkpunojnë në çështje të ndryshme.</p>
+        </div>
+
+        <div>
+          <h3>Libraria Dixhitale</h3>
+                  <p>Libraria dixhitale ofron shënime që plotësojnë botëkuptimin e koncepteve të ndërlikuara apo të vështira. Të validuara nga stafi akademik apo nga profesori!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contactForm" id="kontakti">
+      <div id="contactHeader">
+        <h2 id="contactTtile">Keni ndonjë pyetje?</h2>
+        <p>Në qoftë se keni paqartësi ose nuk po gjeni atë që po kërkoni, mos hezitoni të na kontaktin duke e plotësuar formularin më poshtë! </p>
+
+        <div id="form">
+          <form action="" method="">
+            <fieldset>
+              <legend> Formulari i Kontaktit </legend>
+              <label for="emri"><b>Emri: </b></label>
+              <input type="text" name="emri" id="emri" placeholder="Emri dhe mbiemri" required><br>
+
+              <label for="email"><b>Email: </b></label>
+              <input type="email" name="email" id="email" placeholder="you@example-uni.net" required><br>
+
+              <label for="status"><b>Po ju shënoj si:</b></label>
+              <select name="status" id="status" required>
+                <option value="" selected disabled>Zgjidhni statusin</option>
+                <option value="student">Student</option>
+                <option value="profesor">Profesor</option>
+                <option value="staf">Staf universiteti</option>
+                <option value="else">Dikush tjetër</option>
+              </select><br>
+              
+              <label for="message"><b>Mesazhi juaj</b></label>
+              <textarea id="msgArea" placeholder="Shkruani se çfarë po mendoni" required></textarea><br>
+              <button id="sendMsg" type="submit">Dërgoni mesazhin tuaj!</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer">
+      <div id="bottomLogo">
+        <h4>CampusLoop</h4>
+        <p>Gjithmonë për ju.</p>
+      </div>
+      <div id="bottomLinks">
+        <a href="#home">Home</a>
+        <a href="community.html">Komuniteti</a>
+        <a href="registry.html"> Regjistrohu </a>
+        <a href="login.html">Log In</a>
+
+        <div id="devs">
+          <p>Ky projekt është i realizuar nga Gerona Mahmuti & Jehona Statovci.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
