@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="sq">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <header class="header" id="header">
+            <div id="logo">
+                Platforma Studentore
+            </div>
+
+        <p id ="subtitle">Platforma Studentore · Mësim universitar</p>
+
+        </header>
+
+        <main>
+            <section class="hero" id="home">
+                <div id="heroContent">
+                    <h1>Fillon të mësosh së bashku me kampusin tënd.</h1>
+                    <p>
+                    Organizo shënimet, përgatitu për vlerësime
+                    dhe mëso nga gjeneratat e mëparshme të studentëve.
+                    </p>
+
+                </div>
+
+            </section>
+
+            <section class="registerSection" id="register">
+                <div  id="registeHeader">
+                    <h2>Bashkohu me komunitetin e studentëve</h2>
+                    <p>
+                        Krijo një llogari shembull studenti.
+                        Profesorët nuk mund të regjistrohen publikisht.
+
+                    </p>
+                </div>
+                <div class="registerInfo">
+                    <h4>Praktika e profesorit + njohurit e studentit</h4>
+                    <p>
+                        Demonstrimi i dy roleve të ndryshme të llogarive,
+                        me leje të ndryshme pune.
+                    </p>
+
+                </div>
+
+              <div id="accountLinks">
+                <p>Llogaria jote</p>
+                <a href="login.html">Kyçu</a>
+                <a href="register.html">Regjistrimi i studentit</a>
+
+              </div>
+
+              <div class="registerForm" id="form">
+                <form id="signupForm">
+                    <filedast>
+                        <legenda>Të dhënat personale </legenda>
+                        <label for="signupName">Emri i plotë:</label>
+                        <input type="text" id="signupName" name="emri" placeholder="Emri i plotë" required>
+
+                    
+              </div>
+              <div class="formGroup">
+                <label for="signupId">ID e studentit:</label>
+                <input type="text" id="signupId" placeholder="ID e universitetit" required>
+
+              </div>
+
+              <div>
+                <label for="signupEmail">Emaili i universitetit:</label>
+                <input type="email" id="signupEmail"   name="emaili" placeholder="student@universiteti.edu">
+              </div>
+
+              <div class="formGroup">
+                <label for="signupUniversity">Universiteti:</label>
+                <select id="signupUniversity"  name="universiteti" required>
+                    <option value="Demo University">
+                            Universiteti Demo (shembull)
+                    </option>
+
+                    <option value="Other participating university">
+                    Universitet tjetër pjesëmarrës (shembull)
+                    </option>
+                    </selct>
+              </div>
+            </fieldest>
+
+            <fieldset>
+                <legend>Niveli i studimeve</legend>
+                <div class="formGroup">
+                    <input type="radio" id="bachelor"  name="studyLevel" value="Bachelor" checked>
+                    <label for="bachelor">Bachelor</label>
+                    <input type="radio"  id="master" name="studyLevel" value="Master">
+                    <label for="master">Master</label>
+
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Siguria e llogarisë</legend>
+                <div class="formGroup">
+                    <label for="signupPassword">Krijo fjalëkalimin: </label>
+                    <input type="password" id="signupPassword" name="fjalekalimi"  mindlength="8" placeholder="Të paktën 8 karaktere" required >
+
+                    <button type="button">Shfaq</button>
+
+                </div>
+                
+            </fieldset>
+            <div class="agreement">
+                <input type="checkbox" id="signupAgreement" name="pranimi" required>
+                <label for="signupAgreement">E kuptoj se ky është një demonstrim pa
+                verifikim real universitar.
+            </label>
+            </div>
+            <div class="formNotice">
+                <p>
+                    Vetëm regjistrim prototip. Nuk ka lidhje me
+                    regjistrat e universitetit dhe nuk ka ruajtje
+                    të sigurt të fjalëkalimit. Përdorni të dhëna fiktive.
+
+                </p>
+            </div>
+
+            <div class="fromButton">
+                <botton type="submit">
+                    Krijo llogari demo studenti
+                </botton>
+            </div>
+
+            
+        </form>
+            
+    </section>
+          
+</div>
+
+           <div class="registerNotice";>
+            <p>
+            Llogaritë e profesorëve lëshohen nga institucionet pjesëmarrëse.
+            </p>
+            <p>
+                Ky demonstrim frontend nuk autentifikohet me asnjë
+                universitet real. Kontrollet e identitetit në server
+                do të kërkohen në fazën backend.
+
+            </p>
+
+           </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div id="bottomLogo">
+           <h3>Platforma Studentore</h3>
+           <p>Demonstrim edukativ frontend · Nuk është i lidhur me universitetet</p>
+        </div>
+
+        <div id="bottomLinks">
+            <a href="index.html">Kryefaqja</a>
+            <a href="community.html">Komuniteti</a>
+            <a  href="login.html">Kyçu</a>
+            <a href="register.html">Regjistrohu</a>
+        </div>
+
+    </footer>
+    </body>
+    </html>
+          
+
+              
+              
